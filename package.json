@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/marklog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mark lightweight log statistics from stdin samples.",
+  "bin": {
+    "marklog": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/marklog.git"
+  },
+  "homepage": "https://theworker02.github.io/marklog/",
+  "keywords": [
+    "mark",
+    "log",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
